@@ -104,6 +104,10 @@ html, body {
   transform: rotate(360deg);
 }
 
+.demo__item_type_scale .demo__icon {
+  transition: transform 0.4s ease-out;
+}
+
 .demo__item_type_scale:hover .demo__icon {
   transform: scale(1.2);
 }
