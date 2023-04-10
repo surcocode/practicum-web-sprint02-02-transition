@@ -112,6 +112,10 @@ html, body {
   transform: scale(1.2);
 }
 
+.demo__item_type_skew .demo__icon {
+  transition: transform .4s ease-in-out;
+}
+
 .demo__item_type_skew:hover .demo__icon {
   transform: skew(20deg, 0);
 }
