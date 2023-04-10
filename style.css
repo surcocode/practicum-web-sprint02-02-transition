@@ -96,8 +96,12 @@ html, body {
   transform: translate(10px , 0);  
 }
 
+.demo__item_type_rotate .demo__icon {
+  transition: transform 1.5s ease-out;
+}
+
 .demo__item_type_rotate:hover .demo__icon {
-  transform: rotate(36deg);
+  transform: rotate(360deg);
 }
 
 .demo__item_type_scale:hover .demo__icon {
